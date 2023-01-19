@@ -11,6 +11,9 @@ ln -s ${SRC}/common/macros ${DST}/config/common_macros
 ln -s ${SRC}/common/power ${DST}/config/common_power
 ln -s ${SRC}/common/notifiers ${DST}/config/common_notifiers
 
+cd ${DST}/config
+git clone https://github.com/jschuh/klipper-macros.git
+
 # Certs
 ln -s /etc/ssl/snakeoil.pem ${DST}/moonraker.cert
 ln -s /etc/ssl/snakeoil.pem ${DST}/moonraker.key
@@ -22,6 +25,9 @@ ln -s ${SRC}/${NAME} ${DST}/config
 ln -s ${SRC}/common/macros ${DST}/config/common_macros
 ln -s ${SRC}/common/power ${DST}/config/common_power
 ln -s ${SRC}/common/notifiers ${DST}/config/common_notifiers
+
+cd ${DST}/config
+git clone https://github.com/jschuh/klipper-macros.git
 
 # Certs
 ln -s /etc/ssl/snakeoil.pem ${DST}/moonraker.cert
