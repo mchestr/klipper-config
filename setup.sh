@@ -1,12 +1,9 @@
 #!/bin/bash
-cd ~
-SRC=$(pwd)/klipper-config
+SRC=$HOME/klipper-config
 PRINTERS="ender iiip"
 
 for PRINTER in "${PRINTERS}"; do
-    cd ~
-
-    DST=$(pwd)/${PRINTER}_data
+    DST=$HOME/${PRINTER}_data
     rm -rf ${DST}/config
     ln -s ${SRC}/${PRINTER} ${DST}/config
 
