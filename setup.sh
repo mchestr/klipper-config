@@ -7,8 +7,7 @@ for PRINTER in "${PRINTERS}"; do
     rm -rf ${DST}/config
     ln -s ${SRC}/${PRINTER} ${DST}/config
 
-    cd ${DST}/config
-    git clone https://github.com/jschuh/klipper-macros.git
+    git clone https://github.com/jschuh/klipper-macros.git ${DST}/config/klipper-macros
 
     # Certs
     ln -s /etc/ssl/snakeoil.pem ${DST}/certs/moonraker.cert
