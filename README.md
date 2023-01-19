@@ -8,5 +8,6 @@ Use [KIAUH](https://github.com/th33xitus/kiauh) and name the printers as appropr
 
 ```bash
 git clone git@github.com:mchestr/klipper-config.git
-./klipper-config/setup.cfg
+git submodule update --init --recursive
+./klipper-config/setup.sh
 ```
