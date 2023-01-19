@@ -1,5 +1,5 @@
 *.bkp
-klipper-macros/
-common_macros/
-common_power/
-common_notifiers/
+klipper-macros
+**/common_macros
+**/common_power
+**/common_notifiers
