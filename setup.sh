@@ -9,7 +9,6 @@ for PRINTER in ${PRINTERS}; do
 
     ln -s "${SRC}/common/macros" "${DST}/config/common_macros";
     ln -s "${SRC}/common/power" "${DST}/config/common_power";
-    ln -s "${SRC}/common/notifiers" "${DST}/config/common_notifiers";
 
     git clone https://github.com/jschuh/klipper-macros.git "${DST}/config/klipper-macros";
 
