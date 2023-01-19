@@ -2,7 +2,7 @@
 SRC=$HOME/klipper-config;
 PRINTERS="ender iiip";
 
-for PRINTER in "${PRINTERS}"; do
+for PRINTER in ${PRINTERS}; do
     DST=$HOME/${PRINTER}_data;
     rm -rf ${DST}/config;
     ln -s ${SRC}/${PRINTER} ${DST}/config;
