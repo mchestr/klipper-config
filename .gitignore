@@ -3,3 +3,4 @@ klipper-macros
 **/common_macros
 **/common_power
 **/common_notifiers
+*.decrypted~*
