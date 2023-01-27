@@ -3,3 +3,4 @@
 **/common_power
 **/common_notifiers
 *.decrypted~*
+**/klipper-macros

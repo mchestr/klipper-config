@@ -1,6 +1,0 @@
-[submodule "ender/klipper-macros"]
-	path = ender/klipper-macros
-	url = https://github.com/jschuh/klipper-macros.git
-[submodule "iiip/klipper-macros"]
-	path = iiip/klipper-macros
-	url = https://github.com/jschuh/klipper-macros.git
