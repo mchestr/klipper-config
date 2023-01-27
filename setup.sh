@@ -11,6 +11,8 @@ for PRINTER in ${PRINTERS}; do
     ln -s "${SRC}/common/power" "${DST}/config/common_power";
     ln -s "${SRC}/common/notifiers" "${DST}/config/common_notifiers";
 
+    git clone https://github.com/jschuh/klipper-macros.git ${DST}/config/klipper-macros
+
     # Certs
     ln -s /etc/ssl/snakeoil.pem "${DST}/certs/moonraker.cert";
     ln -s /etc/ssl/snakeoil.pem "${DST}/certs/moonraker.key";
